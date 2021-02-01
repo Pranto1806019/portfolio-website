@@ -19,6 +19,7 @@ ul,ol{
     background-image: url(../images/header-bg.png);
     background-position: cover;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .intro-text{
     width: 50%;
@@ -67,4 +68,50 @@ ul,ol{
     font-family: 'Roboto', sans-serif;
     color : #ec4e8c;
     padding-bottom: 38px;
+}
+/* biography part goes here */
+#biography{
+    background-image: url(../images/biography-bg.png);
+    background-position: cover;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+.biography-img{
+    width: 520px;
+    float: left;
+    padding-top :100px;
+    padding-bottom: 240px;
+}
+.biography-text{
+    width: 520px;
+    float: left;
+    padding-left : 130px;
+    
+}
+.biography-text h1{
+    padding-top : 250px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #202428;
+    line-height: 25px;
+    text-transform: capitalize;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.biography-text p{
+    padding-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    color: #707070;
+}
+.biography-text a{
+    padding: 18px 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #ec4e8c;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
