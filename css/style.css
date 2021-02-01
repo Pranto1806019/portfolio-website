@@ -34,7 +34,7 @@ ul,ol{
 }
 .intro-img img{
     width: 100%;
-    padding-bottom: 233px;
+    padding-bottom: 150px;
 }
 .intro-text a{
     padding: 30px;
@@ -80,7 +80,7 @@ ul,ol{
     width: 520px;
     float: left;
     padding-top :100px;
-    padding-bottom: 240px;
+    padding-bottom: 150px;
 }
 .biography-text{
     width: 520px;
@@ -114,4 +114,38 @@ ul,ol{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+}
+#latest-work{
+    background-image: url(../images/latest-work-bg.png);
+    background-position: cover;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    height :500px;
+}
+.latest-head h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 70px;
+    padding-top :80px;
+    color: #202428;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.work-item .work1{
+    width: 376.666px;
+    float: left;
+}
+.work-item .work2{
+    width: 376.666px;
+    float: left;
+}
+.work-item .work3{
+    width: 376.666px;
+    float: left;
+}
+.work-item {
+    padding-bottom: 150px;
+}
+.mx{
+    margin : 0 20px;
 }
