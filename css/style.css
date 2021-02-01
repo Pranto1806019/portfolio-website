@@ -149,3 +149,71 @@ ul,ol{
 .mx{
     margin : 0 20px;
 }
+/* footer part goes here */
+#footer{
+    background-image: url(../images/footer-bg.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#footer .client{
+    text-align : center;
+    font-family: 'Roboto', sans-serif;
+    font-size :28px;
+    color : #202428;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    line-height: 30px;
+}
+#footer h4{
+    text-align : center;
+    font-family: 'Roboto', sans-serif;
+    color : #202428; 
+    font-weight : 400px;
+}
+#footer h5{
+    text-align : center;
+    font-family: 'Roboto', sans-serif;
+    color : #707070;
+    padding-top :10px;
+    font-weight : 300px;
+}
+#footer .description{
+    text-align : center;
+    font-family: 'Roboto', sans-serif;
+    color : #333333;
+    padding : 30px 200px;
+    padding-bottom: 80px;
+}
+#footer a h3{
+    text-align : center;
+    font-family: 'Roboto', sans-serif;
+    color : #ffffff;
+    /* background-color: #ec4c7b; */
+    padding : 25px 0;
+    padding-bottom: 10px;
+    font-size : 13px;
+}
+#footer a h1{
+    text-align : center;
+    font-family: 'Roboto', sans-serif;
+    color : #ffffff; 
+    padding-bottom: 35px;  
+}
+.item{
+    background-color: #ec4c7b;
+    margin: 0 290px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom : 150px;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color : #707070;
+    padding-bottom: 30px;
+}
